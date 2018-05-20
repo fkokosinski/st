@@ -216,7 +216,8 @@ static Shortcut shortcuts[] = {
 	{ TERMMOD,              XK_I,           iso14755,       {.i =  0} },
 	{ XK_NO_MOD,            XK_Page_Up,     kscrollup,      {.i = -1} },
 	{ XK_NO_MOD,            XK_Page_Down,   kscrolldown,    {.i = -1} },
-	{ TERMMOD,              XK_o,           opencopied,     {.v = "xdg-open"} },
+	{ TERMMOD,              XK_N,           opencopied,     {.v = "firefox"} },
+	{ TERMMOD,              XK_M,           copyurl,        {.i =  0} },
 };
 
 /*
